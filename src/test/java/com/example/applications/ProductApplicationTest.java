@@ -47,7 +47,7 @@ public class ProductApplicationTest {
 
         Product savedProduct = captor.getValue();
 
-        String expectedImagePath = "X:\\1.png";
+        String expectedImagePath = "test.jpg";
 
         Assertions.assertEquals(expectedImagePath, savedProduct.getImage(), "A imagem tem que ter sido salva nessa bagaça!");
     }
